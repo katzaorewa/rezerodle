@@ -18,7 +18,7 @@ font-family:'Orbitron', sans-serif;
 
 .container{
 
-    margin-top:140px;
+    margin-top:120px;
 
     display:flex;
     flex-direction:column;
@@ -37,10 +37,10 @@ font-family:'Orbitron', sans-serif;
 
 h1{
 
-    position:absolute;
+    position:fixed;
 
-    top:20px;
-    left:30px;
+    top:15px;
+    left:25px;
 
     margin:0;
 
@@ -433,8 +433,8 @@ body{
 
 h1{
     font-size:32px;
-    top:8px;
-    left:12px;
+    top:10px;
+    left:10px;
 }
 
 .container{
