@@ -122,77 +122,83 @@ input.addEventListener("keydown", (event) => {
 
 function checkTrait(guess, answer){
 
-    if(
-        guess === "Unknown" ||
-        answer === "Unknown"
-    ){
+if(
+    guess === "Unknown" ||
+    answer === "Unknown"
+){
+    return guess===answer
+    ? "correct"
+    : "wrong";
+}
 
-        return guess === answer
-        ? "correct"
-        : "wrong";
-    }
+/* yaş-boy kontrolü */
 
-    if(
-        typeof guess === "number" &&
-        typeof answer === "number"
-    ){
+if(
+!isNaN(parseInt(guess)) &&
+!isNaN(parseInt(answer))
+){
 
-        if(guess === answer){
-            return "correct";
-        }
+guess=parseInt(guess);
+answer=parseInt(answer);
 
-        return guess > answer
-        ? "down"
-        : "up";
-    }
+if(guess===answer){
+return "correct";
+}
 
-    if(guess === answer){
-        return "correct";
-    }
+return guess>answer
+? "down"
+: "up";
 
-    // Arc kontrolü
-    if(
-        guess.includes("Arc") &&
-        answer.includes("Arc")
-    ){
+}
 
-        const guessNumber = parseInt(
-            guess.replace("Arc ", "")
-        );
+if(guess===answer){
+return "correct";
+}
 
-        const answerNumber = parseInt(
-            answer.replace("Arc ", "")
-        );
+if(
+guess.includes("Arc") &&
+answer.includes("Arc")
+){
 
-        if(
-            Math.abs(
-                guessNumber - answerNumber
-            ) === 1
-        ){
-            return "partial";
-        }
-    }
+const guessNumber=parseInt(
+guess.replace("Arc ","")
+);
 
-    // Virgüllü özellik kontrolü
-    const guessTraits = guess
-        .toLowerCase()
-        .split(",")
-        .map(t => t.trim());
+const answerNumber=parseInt(
+answer.replace("Arc ","")
+);
 
-    const answerTraits = answer
-        .toLowerCase()
-        .split(",")
-        .map(t => t.trim());
+if(
+Math.abs(
+guessNumber-answerNumber
+)===1
+){
+return "partial";
+}
 
-    const hasMatch = guessTraits.some(trait =>
-        answerTraits.includes(trait)
-    );
+}
 
-    if(hasMatch){
-        return "partial";
-    }
+const guessTraits=guess
+.toLowerCase()
+.split(",")
+.map(t=>t.trim());
 
-    return "wrong";
+const answerTraits=answer
+.toLowerCase()
+.split(",")
+.map(t=>t.trim());
+
+const hasMatch=guessTraits.some(
+trait=>
+answerTraits.includes(trait)
+);
+
+if(hasMatch){
+return "partial";
+}
+
+return "wrong";
+
 }
 
 function showResult(character){
