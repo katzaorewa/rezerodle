@@ -58,10 +58,15 @@ h1{
     z-index:1000;
 }
 .search-box{
+
+    position:relative;
+
     display:flex;
     justify-content:center;
+
     gap:10px;
 
+    margin-top:40px;
     margin-bottom:40px;
 }
 
@@ -444,10 +449,15 @@ h1{
 /* Arama alanı */
 
 .search-box{
+
     width:100%;
     display:flex;
+
     justify-content:center;
+
     gap:5px;
+
+    margin-top:25px;
 }
 
 input{
