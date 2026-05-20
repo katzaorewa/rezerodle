@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezerodle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="container">
+
+        <h1>Re:Zerodle</h1>
+
+        <div class="search-box">
+
+            <input type="text" id="characterInput" placeholder="Enter a character...">
+
+<div id="suggestions"></div>
+
+            <button>GUESS</button>
+
+        </div>
+<div class="headers">
+
+    <div>Image</div>
+    <div>Gender</div>
+    <div>Race</div>
+    <div>Role</div>
+    <div>Affiliation</div>
+    <div>Age</div>
+    <div>Height</div>
+    <div>Elemental Affinity</div>
+    <div>Divine Protection</div>
+    <div>Authority</div>
+    <div>First Arc</div>
+
+</div>
+        <div id="results">
+
+        </div>
+
+    </div>
+    <script src="characters.js"></script>
+    <script src="script.js"></script>
+    <div id="overlay"></div>
+<div id="win-popup" class="win-popup">
+
+    <img src="images/rem.gif" id="rem-gif">
+
+    <h2>Correct!</h2>
+
+    <div id="winner-character">
+
+        <img id="winner-image">
+
+        <p id="winner-name"></p>
+
+    </div>
+
+</div>
+</body>
+</html>
+
+<div class="search-container">
