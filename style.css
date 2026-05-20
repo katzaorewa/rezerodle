@@ -37,7 +37,7 @@ font-family:'Orbitron', sans-serif;
 
 h1{
 
-    position: fixed;
+    position: absolute;
 
     top: 20px;
     left: 30px;
