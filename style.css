@@ -83,6 +83,7 @@ input{
     color:white;
 
     font-size:18px;
+    font-family:'Cinzel', serif;
 }
 
 button{
@@ -98,6 +99,8 @@ button{
     font-size:18px;
 
     cursor:pointer;
+
+    font-family:'Cinzel', serif;
 }
 
 button:hover{
