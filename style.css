@@ -120,7 +120,7 @@ button:hover{
 #results{
     display:flex;
     flex-direction:column;
-    gap:20px;
+    gap:6px;
 }
 
 .result-row{
@@ -265,7 +265,7 @@ button:hover{
 
 .headers div{
 
-    width:90px;
+    width:85px;
 
     height:40px;
 
@@ -526,6 +526,16 @@ button{
 
 /* Sonuç kutuları */
 
+    #results{
+
+    gap:2px;
+}
+
+.result-row{
+
+    margin-top:1px;
+}
+
 .result-row{
     gap:1px;
 }
@@ -624,4 +634,29 @@ button{
 
 .down{
     background:#d98c00;
+}
+
+.empty-header{
+
+    width:70px;
+
+    visibility:hidden;
+
+    background:none !important;
+
+    border:none !important;
+}
+
+.headers div:nth-child(8),
+.headers div:nth-child(9),
+.headers div:nth-child(11){
+
+    width:100px;
+}
+
+.result-row div:nth-child(8),
+.result-row div:nth-child(9),
+.result-row div:nth-child(11){
+
+    width:100px;
 }
