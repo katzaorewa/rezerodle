@@ -3,7 +3,7 @@ const characters = [
 {
     name: "Natsuki Subaru",
 
-    image: "./images/subaru.jpg",
+    image: "./images/subaru.png",
 
     gender: "Male",
 
@@ -29,7 +29,7 @@ const characters = [
 {
     name: "Reinhard van Astrea",
 
-    image: "./images/reinhard.jpg",
+    image: "./images/reinhard.png",
 
     gender: "Male",
 
@@ -55,7 +55,7 @@ const characters = [
 {
     name: "Emilia",
 
-    image: "./images/emilia.jpg",
+    image: "./images/emilia.png",
 
     gender: "Female",
 
@@ -81,7 +81,7 @@ const characters = [
 {
     name: "Elsa Granhiert",
 
-    image: "./images/elsa.jpg",
+    image: "./images/elsa.png",
 
     gender: "Female",
 
@@ -107,7 +107,7 @@ const characters = [
 {
     name: "Rem",
 
-    image: "./images/rem.jpg",
+    image: "./images/rem.png",
 
     gender: "Female",
 
@@ -133,7 +133,7 @@ const characters = [
 {
     name: "Ram",
 
-    image: "./images/ram.jpg",
+    image: "./images/ram.png",
 
     gender: "Female",
 
@@ -159,7 +159,7 @@ const characters = [
 {
     name: "Black Serpent",
 
-    image: "./images/blackserpent.jpg",
+    image: "./images/blackserpent.png",
 
     gender: "Unknown",
 
@@ -185,7 +185,7 @@ const characters = [
 {
     name: "White Whale",
 
-    image: "./images/whitewhale.jpg",
+    image: "./images/whitewhale.png",
 
     gender: "Unknown",
 
@@ -211,7 +211,7 @@ const characters = [
 {
     name: "Great Rabbit",
 
-    image: "./images/greatrabbit.jpg",
+    image: "./images/greatrabbit.png",
 
     gender: "Unknown",
 
@@ -237,7 +237,7 @@ const characters = [
 {
     name: "Puck",
 
-    image: "./images/puck.jpg",
+    image: "./images/puck.png",
 
     gender: "Male",
 
@@ -263,7 +263,7 @@ const characters = [
 {
     name: "Roswaal L. Mathers",
 
-    image: "./images/roswaal.jpg",
+    image: "./images/roswaal.png",
 
     gender: "Male",
 
@@ -288,7 +288,7 @@ const characters = [
 
 {
     name: "Liliana Masquerade",
-    image: "./images/liliana.jpg",
+    image: "./images/liliana.png",
     gender: "Female",
     race: "Human",
     role: "Citizen",
@@ -303,7 +303,7 @@ const characters = [
 
 {
     name: "Typhon",
-    image: "./images/typhon.jpg",
+    image: "./images/typhon.png",
     gender: "Female",
     race: "Human",
     role: "Witch of Sin",
@@ -318,7 +318,7 @@ const characters = [
 
 {
     name: "Wilhelm van Astrea",
-    image: "./images/wilhelm.jpg",
+    image: "./images/wilhelm.png",
     gender: "Male",
     race: "Human",
     role: "Sword Demon",
@@ -333,7 +333,7 @@ const characters = [
 
 {
     name: "Sekhmet",
-    image: "./images/sekhmet.jpg",
+    image: "./images/sekhmet.png",
     gender: "Female",
     race: "Giant",
     role: "Witch of Sin",
@@ -363,7 +363,7 @@ const characters = [
 
 {
     name: "Regulus Corneas",
-    image: "./images/regulus.jpg",
+    image: "./images/regulus.png",
     gender: "Male",
     race: "Human",
     role: "Sin Archbishop",
@@ -378,7 +378,7 @@ const characters = [
 
 {
     name: "Frederica Bauman",
-    image: "./images/frederica.jpg",
+    image: "./images/frederica.png",
     gender: "Female",
     race: "Human, Beast",
     role: "Maid",
@@ -393,7 +393,7 @@ const characters = [
 
 {
     name: "Felix Argyle",
-    image: "./images/felix.jpg",
+    image: "./images/felix.png",
     gender: "Male",
     race: "Human, Beast",
     role: "Knight",
@@ -408,7 +408,7 @@ const characters = [
 
 {
     name: "Rui Arneb",
-    image: "./images/rui.jpg",
+    image: "./images/rui.png",
     gender: "Female",
     race: "Human",
     role: "Sin Archbishop",
@@ -423,7 +423,7 @@ const characters = [
 
 {
     name: "Daphne",
-    image: "./images/daphne.jpg",
+    image: "./images/daphne.png",
     gender: "Female",
     race: "Human",
     role: "Witch of Sin",
@@ -438,7 +438,7 @@ const characters = [
 
 {
     name: "Anastasia Hoshin",
-    image: "./images/anastasia.jpg",
+    image: "./images/anastasia.png",
     gender: "Female",
     race: "Human",
     role: "Royal Candidate",
@@ -453,7 +453,7 @@ const characters = [
 
 {
     name: "Roy Alphard",
-    image: "./images/roy.jpg",
+    image: "./images/roy.png",
     gender: "Male",
     race: "Human",
     role: "Sin Archbishop",
@@ -468,10 +468,10 @@ const characters = [
 
 {
     name: "Meili Portroute",
-    image: "./images/meili.jpg",
+    image: "./images/meili.png",
     gender: "Female",
     race: "Human",
-    role: "Witch Beast User, Assassin",
+    role: "Witch Beast User",
     affiliation: "Emilia Camp",
     age: "14",
     height: "145",
@@ -483,7 +483,7 @@ const characters = [
 
 {
     name: "Naoko Natsuki",
-    image: "./images/naoko.jpg",
+    image: "./images/naoko.png",
     gender: "Female",
     race: "Human",
     role: "Family Member",
@@ -498,7 +498,7 @@ const characters = [
 
 {
     name: "Lye Batenkaitos",
-    image: "./images/lye.jpg",
+    image: "./images/lye.png",
     gender: "Male",
     race: "Human",
     role: "Sin Archbishop",
@@ -513,7 +513,7 @@ const characters = [
 
 {
     name: "Kenichi Natsuki",
-    image: "./images/kenichi.jpg",
+    image: "./images/kenichi.png",
     gender: "Male",
     race: "Human",
     role: "Family Member",
@@ -528,7 +528,7 @@ const characters = [
 
 {
     name: "Capella Emerada Lugunica",
-    image: "./images/capella.jpg",
+    image: "./images/capella.png",
     gender: "Female",
     race: "Unknown",
     role: "Sin Archbishop",
@@ -543,7 +543,7 @@ const characters = [
 
 {
     name: "Satella",
-    image: "./images/satella.jpg",
+    image: "./images/satella.png",
     gender: "Female",
     race: "Elf, Human",
     role: "Witch of Sin",
@@ -558,7 +558,7 @@ const characters = [
 
 {
     name: "Minerva",
-    image: "./images/minerva.jpg",
+    image: "./images/minerva.png",
     gender: "Female",
     race: "Human",
     role: "Witch of Sin",
@@ -573,7 +573,7 @@ const characters = [
 
 {
     name: "Petra Leyte",
-    image: "./images/petra.jpg",
+    image: "./images/petra.png",
     gender: "Female",
     race: "Human",
     role: "Maid",
@@ -588,7 +588,7 @@ const characters = [
 
 {
     name: "Theresia van Astrea",
-    image: "./images/theresia.jpg",
+    image: "./images/theresia.png",
     gender: "Female",
     race: "Human",
     role: "Sword Saint",
@@ -603,7 +603,7 @@ const characters = [
 
 {
     name: "Sirius Romanée-Conti",
-    image: "./images/sirius.jpg",
+    image: "./images/sirius.png",
     gender: "Female",
     race: "Unknown",
     role: "Sin Archbishop",
