@@ -236,6 +236,15 @@ button:hover{
     align-items:center;
 
     gap:12px;
+
+    .suggestion span{
+
+    font-family:'Mita', serif;
+
+    font-size:18px;
+
+    color:white;
+}
 }
 
 .suggestion-image{
