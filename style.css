@@ -18,7 +18,7 @@ font-family:'Cinzel', sans-serif;
 
 .container{
 
-    margin-top:120px;
+    margin-top:180px;
 
     display:flex;
     flex-direction:column;
@@ -190,7 +190,6 @@ button:hover{
     object-fit:cover;
 
     image-rendering:auto;
-}
 }
 
 #suggestions{
@@ -466,7 +465,7 @@ h1{
 
 input{
     width:130px;
-    height:16px;
+    height:35px;
 
     padding:8px;
 
