@@ -348,7 +348,7 @@ const characters = [
 
 {
     name: "Echidna",
-    image: "./images/echidna.jpg",
+    image: "./images/echidna.png",
     gender: "Female",
     race: "Human",
     role: "Witch of Sin",
