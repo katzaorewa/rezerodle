@@ -89,7 +89,7 @@ const characters = [
 
     role: "Assassin",
 
-    affiliation: "Gusteko",
+    affiliation: "Holy Kingdom of Gusteko",
 
     age: "23",
 
@@ -725,7 +725,7 @@ const characters = [
     name: "Ricardo Welkin",
     image: "./images/ricardo.png",
     gender: "Male",
-    race: "Wolf, Human",
+    race: "Human, Beast",
     role: "Mercenary Vice Captain",
     affiliation: "Anastasia Camp",
     age: "40",
