@@ -38,7 +38,8 @@ if(input.value.trim() === ""){
 
     let guessName = input.value;
 
-const firstSuggestion = characters.filter(character => {
+const firstSuggestion = characters
+.filter(character => {
 
     if(
         guessedCharacters.includes(character.name)
@@ -47,8 +48,8 @@ const firstSuggestion = characters.filter(character => {
     }
 
     const words = character.name
-        .toLowerCase()
-        .split(" ");
+    .toLowerCase()
+    .split(" ");
 
     return words.some(word =>
         word.startsWith(
@@ -56,7 +57,11 @@ const firstSuggestion = characters.filter(character => {
         )
     );
 
-})[0];
+})
+
+.sort((a,b)=>
+a.name.localeCompare(b.name)
+)[0];
 
 if(firstSuggestion){
 
