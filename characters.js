@@ -113,7 +113,7 @@ const characters = [
 
     race: "Oni",
 
-    role: "Maid",
+    role: "Servant",
 
     affiliation: "Emilia Camp",
 
@@ -139,7 +139,7 @@ const characters = [
 
     race: "Oni",
 
-    role: "Maid",
+    role: "Servant",
 
     affiliation: "Emilia Camp",
 
@@ -381,7 +381,7 @@ const characters = [
     image: "./images/frederica.png",
     gender: "Female",
     race: "Human, Beast",
-    role: "Maid",
+    role: "Servant",
     affiliation: "Emilia Camp",
     age: "22",
     height: "176",
@@ -576,7 +576,7 @@ const characters = [
     image: "./images/petra.png",
     gender: "Female",
     race: "Human",
-    role: "Maid",
+    role: "Servant",
     affiliation: "Emilia Camp",
     age: "13",
     height: "140",
