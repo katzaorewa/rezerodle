@@ -89,25 +89,7 @@ guessedCharacters.push(guessedCharacter.name);
 input.value = "";
 suggestions.innerHTML = "";
 
-    if(guessedCharacter.name === answer.name){
-
-        gameWon = true;
-
-    const winPopup = document.getElementById("win-popup");
-
-    winPopup.style.display = "block";
-
-    document.getElementById("overlay").classList.add("show");
-
-    setTimeout(() => {
-        winPopup.classList.add("show");
-    }, 10);
-
-    document.getElementById("winner-image").src = guessedCharacter.image;
-
-    document.getElementById("winner-name").textContent = guessedCharacter.name;
-
-}
+    
 });
 
 input.addEventListener("keydown", (event) => {
@@ -207,77 +189,134 @@ function showResult(character){
 
     row.classList.add("result-row");
 
-    row.innerHTML = `
+    row.innerHTML=`
 
-    <div class="character-image">
+<div class="character-image">
+<img src="${character.image}">
+</div>
 
-        <img src="${character.image}">
+<div class="${checkTrait(character.gender,answer.gender)}">
+${character.gender}
+</div>
 
-    </div>
+<div class="${checkTrait(character.race,answer.race)}">
+${character.race}
+</div>
 
-    <div class="${checkTrait(character.gender, answer.gender)}">
-        ${character.gender}
-    </div>
+<div class="${checkTrait(character.role,answer.role)}">
+${character.role}
+</div>
 
-    <div class="${checkTrait(character.race, answer.race)}">
-        ${character.race}
-    </div>
+<div class="${checkTrait(character.affiliation,answer.affiliation)}">
+${character.affiliation}
+</div>
 
-    <div class="${checkTrait(character.role, answer.role)}">
-        ${character.role}
-    </div>
-
-    <div class="${checkTrait(character.affiliation, answer.affiliation)}">
-        ${character.affiliation}
-    </div>
-
-    <div class="${checkTrait(character.age, answer.age)}">
+<div class="${checkTrait(character.age,answer.age)}">
 
 ${character.age}
 
-${character.age !== answer.age &&
-character.age !== "Unknown" &&
-answer.age !== "Unknown"
-? (parseInt(character.age) > parseInt(answer.age) ? " ↓" : " ↑")
-: ""}
+${character.age!==answer.age &&
+character.age!=="Unknown" &&
+answer.age!=="Unknown"
+
+?(parseInt(character.age)>
+parseInt(answer.age)
+?" ↓"
+:" ↑")
+:""}
 
 </div>
 
-<div class="${checkTrait(character.height, answer.height)}">
+<div class="${checkTrait(character.height,answer.height)}">
 
-${character.height === "Unknown"
-? "Unknown"
-: character.height >= 1000
-? (character.height / 100) + " m"
-: character.height + " cm"}
+${character.height==="Unknown"
+?"Unknown"
+:character.height>=1000
+?(character.height/100)+" m"
+:character.height+" cm"}
 
-${character.height !== answer.height &&
-character.height !== "Unknown" &&
-answer.height !== "Unknown"
-? (parseInt(character.height) > parseInt(answer.height) ? " ↓" : " ↑")
-: ""}
+${character.height!==answer.height &&
+character.height!=="Unknown" &&
+answer.height!=="Unknown"
+
+?(parseInt(character.height)>
+parseInt(answer.height)
+?" ↓"
+:" ↑")
+:""}
 
 </div>
 
-    <div class="${checkTrait(character.elementalAffinity, answer.elementalAffinity)}">
-        ${character.elementalAffinity}
-    </div>
+<div class="${checkTrait(character.elementalAffinity,answer.elementalAffinity)}">
+${character.elementalAffinity}
+</div>
 
-    <div class="${checkTrait(character.divineProtection, answer.divineProtection)}">
-        ${character.divineProtection}
-    </div>
+<div class="${checkTrait(character.divineProtection,answer.divineProtection)}">
+${character.divineProtection}
+</div>
 
-    <div class="${checkTrait(character.authority, answer.authority)}">
-        ${character.authority}
-    </div>
+<div class="${checkTrait(character.authority,answer.authority)}">
+${character.authority}
+</div>
 
-    <div class="${checkTrait(character.firstAppearance, answer.firstAppearance)}">
-        ${character.firstAppearance}
-    </div>
+<div class="${checkTrait(character.firstAppearance,answer.firstAppearance)}">
+${character.firstAppearance}
+</div>
 
-    `;
+`;
 
-    results.prepend(row);
+results.prepend(row);
+
+const cells=row.querySelectorAll("div");
+
+cells.forEach((cell,index)=>{
+
+cell.style.opacity="0";
+cell.style.transform="scale(0.8)";
+
+setTimeout(()=>{
+
+cell.style.transition="0.3s";
+cell.style.opacity="1";
+cell.style.transform="scale(1)";
+
+},index*180);
+
+});
+
+if(character.name===answer.name){
+
+gameWon=true;
+
+const totalDelay=
+cells.length*180+300;
+
+setTimeout(()=>{
+
+const winPopup=
+document.getElementById("win-popup");
+
+winPopup.style.display="block";
+
+document.getElementById("overlay")
+.classList.add("show");
+
+document.getElementById("winner-image")
+.src=character.image;
+
+document.getElementById("winner-name")
+.textContent=character.name;
+
+setTimeout(()=>{
+
+winPopup.classList.add("show");
+
+},10);
+
+},totalDelay);
+
+}
+
 }
    
 input.addEventListener("input", () => {
