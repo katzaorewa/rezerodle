@@ -290,7 +290,8 @@ input.addEventListener("input", () => {
         return;
     }
 
-    const filteredCharacters = characters.filter(character => {
+    const filteredCharacters = characters
+.filter(character => {
 
     if(
         guessedCharacters.includes(character.name)
@@ -306,8 +307,11 @@ input.addEventListener("input", () => {
         word.startsWith(value)
     );
 
-});
+})
 
+.sort((a,b) =>
+    a.name.localeCompare(b.name)
+);
 
     filteredCharacters.forEach(character => {
 
