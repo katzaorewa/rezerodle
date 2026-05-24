@@ -511,21 +511,6 @@ const characters = [
 },
 
 {
-    name: "Patrasche",
-    image: "./images/patrasche.png",
-    gender: "Female",
-    race: "Earth Dragon",
-    role: "Earth Dragon",
-    affiliation: "Emilia Camp",
-    age: "Unknown",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "Yes",
-    authority: "No",
-    firstAppearance: "Arc 3"
-},
-
-{
     name: "Mimi Pearlbaton",
     image: "./images/mimi.png",
     gender: "Female",
