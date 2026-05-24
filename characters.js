@@ -243,7 +243,7 @@ const characters = [
 
     race: "Spirit",
 
-    role: "One of the Four Great Spirits",
+    role: "Contracted Spirit, One of the Four Great Spirits",
 
     affiliation: "Emilia Camp",
 
@@ -1289,5 +1289,425 @@ const characters = [
     divineProtection: "No",
     authority: "No",
     firstAppearance: "Arc 9"
+},
+
+    {
+    name: "Grassis Remendis",
+    image: "./images/grassis.png",
+    gender: "Female",
+    race: "Human",
+    role: "Servant",
+    affiliation: "Felt Camp",
+    age: "13",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Melakuera",
+    image: "./images/melakuera.png",
+    gender: "Male",
+    race: "Spirit",
+    role: "One of the Four Great Spirits",
+    affiliation: "Four Great Spirits",
+    age: "400",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "OVA"
+},
+
+{
+    name: "Hornet",
+    image: "./images/hornet.png",
+    gender: "Female",
+    race: "Human",
+    role: "Gladiator",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "200",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 8"
+},
+
+{
+    name: "Sphinx",
+    image: "./images/sphinx.png",
+    gender: "Female",
+    race: "Human, Elf",
+    role: "Leader",
+    affiliation: "Sanctuary",
+    age: "400",
+    height: "164",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Archi Elior",
+    image: "./images/archi.png",
+    gender: "Male",
+    race: "Elf",
+    role: "Villager",
+    affiliation: "Elior Forest",
+    age: "Unknown",
+    height: "172",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Beatrice",
+    image: "./images/beatrice.png",
+    gender: "Female",
+    race: "Spirit",
+    role: "Contracted Spirit",
+    affiliation: "Emilia Camp",
+    age: "400",
+    height: "130",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 2"
+},
+
+{
+    name: "Eridna",
+    image: "./images/eridna.png",
+    gender: "Female",
+    race: "Spirit",
+    role: "Contracted Spirit",
+    affiliation: "Anastasia Camp",
+    age: "400",
+    height: "Unknown",
+    elementalAffinity: "Yang",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+{
+    name: "Aldebaran",
+    image: "./images/al.png",
+    gender: "Male",
+    race: "Human",
+    role: "Knight",
+    affiliation: "Priscilla Camp",
+    age: "40",
+    height: "172",
+    elementalAffinity: "Yin",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Petelgeuse Romanée-Conti",
+    image: "./images/petelguese.png",
+    gender: "Male",
+    race: "Spirit",
+    role: "Sin Archbishop",
+    affiliation: "Witch Cult",
+    age: "402",
+    height: "180",
+    elementalAffinity: "Earth",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Ubilk",
+    image: "./images/ubilk.png",
+    gender: "Male",
+    race: "Evil Eye Tribe",
+    role: "Male Prostitute",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Tivey Pearlbaton",
+    image: "./images/tivey.png",
+    gender: "Male",
+    race: "Human, Beast",
+    role: "Mercenary Vice Captain",
+    affiliation: "Anastasia Camp",
+    age: "15",
+    height: "110",
+    elementalAffinity: "Fire",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Heinkel van Astrea",
+    image: "./images/heinkel.png",
+    gender: "Male",
+    race: "Human",
+    role: "Deputy Commander of the Royal Guard",
+    affiliation: "House Astrea",
+    age: "39",
+    height: "185",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+{
+    name: "Rafiel Thompson",
+    image: "./images/rafiel.png",
+    gender: "Female",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Priestella",
+    age: "10",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+ {
+    name: "Carmilla",
+    image: "./images/carmilla.png",
+    gender: "Female",
+    race: "Human",
+    role: "Witch of Sin",
+    affiliation: "Castle of Dreams",
+    age: "400",
+    height: "158",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Crusch Karsten",
+    image: "./images/crusch.png",
+    gender: "Female",
+    race: "Human",
+    role: "Royal Candidate",
+    affiliation: "Crusch Camp",
+    age: "21",
+    height: "168",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Madelyn Eschart",
+    image: "./images/madelyn.png",
+    gender: "Female",
+    race: "Dragonkin",
+    role: "One of the Nine Divine Generals",
+    affiliation: "Vollachia Empire, Nine Divine Generals",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Volcanica",
+    image: "./images/volcanica.png",
+    gender: "Unknown",
+    race: "Dragon",
+    role: "Guardian Dragon of the Kingdom of Lugunica",
+    affiliation: "Kingdom of Lugunica",
+    age: "Unknown",
+    height: "1500",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 6"
+},
+
+{
+    name: "Hector",
+    image: "./images/hector.png",
+    gender: "Male",
+    race: "Unknown",
+    role: "Warlock of Melancholy",
+    affiliation: "Witches of Sin",
+    age: "Unknown",
+    height: "185",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Rishia",
+    image: "./images/rishia.png",
+    gender: "Female",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Priestella, Sanctuary",
+    age: "35",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Taritta Shudrak",
+    image: "./images/taritta.png",
+    gender: "Female",
+    race: "Human",
+    role: "One of the Shudraks",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Pandora",
+    image: "./images/pandora.png",
+    gender: "Female",
+    race: "Unknown",
+    role: "Witch of Sin",
+    affiliation: "Witches of Sin",
+    age: "400",
+    height: "155",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Chisha Gold",
+    image: "./images/shisha.png",
+    gender: "Male",
+    race: "Human",
+    role: "One of the Nine Divine Generals",
+    affiliation: "Vollachia Empire, Nine Divine Generals",
+    age: "29",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Lusbel Kallard",
+    image: "./images/lusbel.png",
+    gender: "Male",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Priestella",
+    age: "9",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+{
+    name: "Omega",
+    image: "./images/omega.png",
+    gender: "Female",
+    race: "Human, Elf",
+    role: "Witch of Sin",
+    affiliation: "Witches of Sin",
+    age: "400",
+    height: "135",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Tanza",
+    image: "./images/tanza.png",
+    gender: "Female",
+    race: "Human, Beast",
+    role: "Servant",
+    affiliation: "Vollachia Empire",
+    age: "11",
+    height: "140",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Utakata Shudrak",
+    image: "./images/utakata.png",
+    gender: "Female",
+    race: "Human",
+    role: "One of the Shudraks",
+    affiliation: "Vollachia Empire",
+    age: "10",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Garfiel Tinsel",
+    image: "./images/garfiel.png",
+    gender: "Male",
+    race: "Human, Beast",
+    role: "Military Officer of the Emilia Camp",
+    affiliation: "Emilia Camp",
+    age: "15",
+    height: "160",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Ryuzu Meyer",
+    image: "./images/ryuzu.png",
+    gender: "Female",
+    race: "Human, Elf",
+    role: "Ryuzu Meyer's Copy",
+    affiliation: "Emilia Camp, Sanctuary",
+    age: "400",
+    height: "135",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 4"
 },
 ];
