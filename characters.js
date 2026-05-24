@@ -1065,4 +1065,229 @@ const characters = [
     authority: "No",
     firstAppearance: "Arc 5"
 },   
+
+    {
+    name: "Raksha Risch",
+    image: "./images/raksha.png",
+    gender: "Female",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Kingdom of Lugunica",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 1"
+},
+
+{
+    name: "Spica",
+    image: "./images/spica.png",
+    gender: "Female",
+    race: "Human",
+    role: "Former Sin Archbishop",
+    affiliation: "Emilia Camp",
+    age: "Unknown",
+    height: "140",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "Arc 6"
+},
+
+{
+    name: "Hetaro Pearlbaton",
+    image: "./images/hetaro.png",
+    gender: "Male",
+    race: "Human, Beast",
+    role: "Mercenary Vice Captain",
+    affiliation: "Anastasia Camp",
+    age: "15",
+    height: "110",
+    elementalAffinity: "Water",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Stride",
+    image: "./images/stride.png",
+    gender: "Male",
+    race: "Human",
+    role: "Sin Archbishop",
+    affiliation: "Vollachia Empire, Witch Cult",
+    age: "28",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "Yes",
+    firstAppearance: "None"
+},
+
+{
+    name: "Flop O'Connell",
+    image: "./images/flop.png",
+    gender: "Male",
+    race: "Human",
+    role: "Merchant",
+    affiliation: "Vollachia Empire",
+    age: "22",
+    height: "175",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "None"
+},
+
+{
+    name: "Flugel",
+    image: "./images/flugel.png",
+    gender: "Male",
+    race: "Human",
+    role: "The Great Sage",
+    affiliation: "Pleiades Watchtower",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "None"
+},
+
+{
+    name: "Reid van Astrea",
+    image: "./images/reid.png",
+    gender: "Male",
+    race: "Human",
+    role: "Sword Saint",
+    affiliation: "House Astrea",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 6"
+},
+
+{
+    name: "Sylphy Elmart",
+    image: "./images/sylphy.png",
+    gender: "Female",
+    race: "Human",
+    role: "Servant",
+    affiliation: "Emilia Camp",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+{
+    name: "Serena Dracroy",
+    image: "./images/serena.png",
+    gender: "Female",
+    race: "Human",
+    role: "High Countess",
+    affiliation: "Vollachia Empire",
+    age: "30",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Zarestia",
+    image: "./images/zarestia.png",
+    gender: "Female",
+    race: "Spirit",
+    role: "One of the Four Great Spirits",
+    affiliation: "Four Great Spirits",
+    age: "Unknown",
+    height: "166",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "None"
+},
+
+{
+    name: "Yorna Mishigure",
+    image: "./images/yorna.png",
+    gender: "Female",
+    race: "Human, Beast",
+    role: "One of the Nine Divine Generals",
+    affiliation: "Vollachia Empire, Nine Divine Generals",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Priscilla Barielle",
+    image: "./images/priscilla.png",
+    gender: "Female",
+    race: "Human",
+    role: "Royal Candidate",
+    affiliation: "Priscilla Camp",
+    age: "20",
+    height: "164",
+    elementalAffinity: "Yang",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Mizelda Shudrak",
+    image: "./images/mizelda.png",
+    gender: "Female",
+    race: "Human",
+    role: "One of the Shudraks",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Katya Aurélie",
+    image: "./images/katya.png",
+    gender: "Female",
+    race: "Human",
+    role: "Noble",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Ezzo Cadner",
+    image: "./images/ezzo.png",
+    gender: "Male",
+    race: "Dwarf",
+    role: "Mage",
+    affiliation: "Felt Camp",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 9"
+},
 ];
