@@ -615,4 +615,229 @@ const characters = [
     authority: "Yes",
     firstAppearance: "Arc 5"
 },
+
+    {
+    name: "Julius Juukulius",
+    image: "./images/julius.png",
+    gender: "Male",
+    race: "Human",
+    role: "Knight",
+    affiliation: "Anastasia Camp",
+    age: "22",
+    height: "179",
+    elementalAffinity: "Wind",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Patrasche",
+    image: "./images/patrasche.png",
+    gender: "Female",
+    race: "Earth Dragon",
+    role: "Earth Dragon",
+    affiliation: "Emilia Camp",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Mimi Pearlbaton",
+    image: "./images/mimi.png",
+    gender: "Female",
+    race: "Human, Beast",
+    role: "Mercenary Vice Captain",
+    affiliation: "Anastasia Camp",
+    age: "15",
+    height: "110",
+    elementalAffinity: "Earth",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Felt",
+    image: "./images/felt.png",
+    gender: "Female",
+    race: "Human",
+    role: "Royal Candidate",
+    affiliation: "Felt Camp",
+    age: "15",
+    height: "150",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 1"
+},
+
+{
+    name: "Yae Tenzen",
+    image: "./images/yae.png",
+    gender: "Female",
+    race: "Human",
+    role: "Shinobi, Servant",
+    affiliation: "Priscilla Camp",
+    age: "20",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 9"
+},
+
+{
+    name: "Tina",
+    image: "./images/tina.png",
+    gender: "Female",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Priestella",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+{
+    name: "Shaula",
+    image: "./images/shaula.png",
+    gender: "Female",
+    race: "Witchbeast",
+    role: "Pleiades Watchtower Guardian",
+    affiliation: "Kingdom of Lugunica",
+    age: "400",
+    height: "170",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 6"
+},
+
+{
+    name: "Ricardo Welkin",
+    image: "./images/ricardo.png",
+    gender: "Male",
+    race: "Wolf, Human",
+    role: "Mercenary Vice Captain",
+    affiliation: "Anastasia Camp",
+    age: "40",
+    height: "206",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Flam Remendis",
+    image: "./images/flam.png",
+    gender: "Female",
+    race: "Human",
+    role: "Servant",
+    affiliation: "Felt Camp",
+    age: "13",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Filore",
+    image: "./images/filore.png",
+    gender: "Female",
+    race: "Human",
+    role: "Royal Candidate",
+    affiliation: "Kingdom of Lugunica",
+    age: "15",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 9"
+},
+
+{
+    name: "Schult Barielle",
+    image: "./images/schult.png",
+    gender: "Male",
+    race: "Human",
+    role: "Servant",
+    affiliation: "Priscilla Camp",
+    age: "12",
+    height: "130",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Fred Thompson",
+    image: "./images/fred.png",
+    gender: "Male",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Priestella",
+    age: "7",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},
+
+{
+    name: "Fortuna",
+    image: "./images/fortuna.png",
+    gender: "Female",
+    race: "Elf",
+    role: "Citizen",
+    affiliation: "Elior Forest",
+    age: "Unknown",
+    height: "168",
+    elementalAffinity: "Fire",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Kadomon Risch",
+    image: "./images/kadomon.png",
+    gender: "Male",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Kingdom of Lugunica",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 1"
+},
+
+{
+    name: "Balleroy Temeglyph",
+    image: "./images/balleroy.png",
+    gender: "Male",
+    race: "Human",
+    role: "One of the Nine Divine Generals",
+    affiliation: "Vollachia Empire, Nine Divine Generals",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
 ];
