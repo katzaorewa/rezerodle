@@ -35,7 +35,7 @@ const characters = [
 
     race: "Human",
 
-    role: "Knight",
+    role: "Sword Saint, Knight",
 
     affiliation: "House Astrea",
 
