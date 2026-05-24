@@ -840,4 +840,229 @@ const characters = [
     authority: "No",
     firstAppearance: "Arc 7"
 },
+
+ {
+    name: "Vincent Vollachia",
+    image: "./images/vincent.png",
+    gender: "Male",
+    race: "Human",
+    role: "Emperor",
+    affiliation: "Vollachia Empire",
+    age: "27",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Arakiya",
+    image: "./images/arakiya.png",
+    gender: "Female",
+    race: "Human, Beast",
+    role: "One of the Nine Divine Generals",
+    affiliation: "Vollachia Empire, Nine Divine Generals",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Eugard Vollachia",
+    image: "./images/eugard.png",
+    gender: "Male",
+    race: "Human",
+    role: "Emperor",
+    affiliation: "Vollachia Empire",
+    age: "21",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 8"
+},
+
+{
+    name: "Kuna Shudrak",
+    image: "./images/kuna.png",
+    gender: "Female",
+    race: "Human",
+    role: "One of the Shudraks",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Annerose Miload",
+    image: "./images/annerose.png",
+    gender: "Female",
+    race: "Human",
+    role: "Heir of House Miload",
+    affiliation: "Emilia Camp",
+    age: "10",
+    height: "135",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 4"
+},
+
+{
+    name: "Lamia Godwin",
+    image: "./images/lamia.png",
+    gender: "Female",
+    race: "Human",
+    role: "Princess/Empress",
+    affiliation: "Vollachia Empire",
+    age: "16",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Medium O'Connell",
+    image: "./images/medium.png",
+    gender: "Female",
+    race: "Human",
+    role: "Princess/Empress",
+    affiliation: "Vollachia Empire",
+    age: "20",
+    height: "185",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Cecilus Segmunt",
+    image: "./images/cecilus.png",
+    gender: "Male",
+    race: "Human",
+    role: "One of the Nine Divine Generals",
+    affiliation: "Vollachia Empire, Nine Divine Generals",
+    age: "20",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Otto Suwen",
+    image: "./images/otto.png",
+    gender: "Male",
+    race: "Human",
+    role: "Internal Affairs Officer",
+    affiliation: "Emilia Camp",
+    age: "21",
+    height: "177",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Plum Risch",
+    image: "./images/plum.png",
+    gender: "Female",
+    race: "Human",
+    role: "Citizen",
+    affiliation: "Kingdom of Lugunica",
+    age: "10",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 1"
+},
+
+{
+    name: "Rom",
+    image: "./images/rom.png",
+    gender: "Male",
+    race: "Giant",
+    role: "Advisor",
+    affiliation: "Felt Camp",
+    age: "125",
+    height: "220",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 1"
+},
+
+{
+    name: "Carol Remendis",
+    image: "./images/carol.png",
+    gender: "Female",
+    race: "Human",
+    role: "Servant",
+    affiliation: "House Astrea",
+    age: "64",
+    height: "164",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 3"
+},
+
+{
+    name: "Holly Shudrak",
+    image: "./images/holly.png",
+    gender: "Female",
+    race: "Human",
+    role: "One of the Shudraks",
+    affiliation: "Vollachia Empire",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 7"
+},
+
+{
+    name: "Halibel",
+    image: "./images/halibel.png",
+    gender: "Male",
+    race: "Human, Beast",
+    role: "Shinobi",
+    affiliation: "Kararagi",
+    age: "40",
+    height: "190",
+    elementalAffinity: "None",
+    divineProtection: "No",
+    authority: "No",
+    firstAppearance: "Arc 8"
+},
+
+{
+    name: "Fribal van Astrea",
+    image: "./images/fribal.png",
+    gender: "Male",
+    race: "Human",
+    role: "Sword Saint",
+    affiliation: "House Astrea",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "Yes",
+    authority: "No",
+    firstAppearance: "Arc 5"
+},   
 ];
