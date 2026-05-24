@@ -2,287 +2,166 @@ const characters = [
 
 {
     name: "Natsuki Subaru",
-
     image: "./images/subaru.png",
-
     gender: "Male",
-
     race: "Human",
-
     role: "Protagonist",
-
     affiliation: "Emilia Camp",
-
     age: "18",
-
     height: "172",
-
     elementalAffinity: "Yin",
-
     divineProtection: "No",
-
     authority: "Yes",
-
     firstAppearance: "Arc 1"
 },
 
 {
     name: "Reinhard van Astrea",
-
     image: "./images/reinhard.png",
-
     gender: "Male",
-
     race: "Human",
-
     role: "Sword Saint, Knight",
-
     affiliation: "House Astrea",
-
     age: "20",
-
     height: "184",
-
     elementalAffinity: "None",
-
     divineProtection: "Yes",
-
     authority: "No",
-
     firstAppearance: "Arc 1"
 },
 
 {
     name: "Emilia",
-
     image: "./images/emilia.png",
-
     gender: "Female",
-
     race: "Human, Elf",
-
     role: "Royal Candidate",
-
     affiliation: "Emilia Camp",
-
     age: "114",
-
     height: "164",
-
     elementalAffinity: "Fire",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 1"
 },
 
 {
     name: "Elsa Granhiert",
-
     image: "./images/elsa.png",
-
     gender: "Female",
-
     race: "Human",
-
     role: "Assassin",
-
     affiliation: "Holy Kingdom of Gusteko",
-
     age: "23",
-
     height: "168",
-
     elementalAffinity: "None",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 1"
 },
 
 {
     name: "Rem",
-
     image: "./images/rem.png",
-
     gender: "Female",
-
     race: "Oni",
-
     role: "Servant",
-
     affiliation: "Emilia Camp",
-
     age: "19",
-
     height: "154",
-
     elementalAffinity: "Water",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 2"
 },
 
 {
     name: "Ram",
-
     image: "./images/ram.png",
-
     gender: "Female",
-
     race: "Oni",
-
     role: "Servant",
-
     affiliation: "Emilia Camp",
-
     age: "19",
-
     height: "154",
-
     elementalAffinity: "Wind",
-
     divineProtection: "Yes",
-
     authority: "No",
-
     firstAppearance: "Arc 2"
 },
 
 {
     name: "Black Serpent",
-
     image: "./images/blackserpent.png",
-
     gender: "Unknown",
-
     race: "Witch Beast",
-
     role: "One of the Three Great Witch Beasts",
-
     affiliation: "Created by Daphne",
-
     age: "400",
-
     height: "Unknown",
-
     elementalAffinity: "None",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 9"
 },
 
 {
     name: "White Whale",
-
     image: "./images/whitewhale.png",
-
     gender: "Unknown",
-
     race: "Witch Beast",
-
     role: "One of the Three Great Witch Beasts",
-
     affiliation: "Created by Daphne",
-
     age: "400",
-
     height: "Unknown",
-
     elementalAffinity: "None",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 3"
 },
 
 {
     name: "Great Rabbit",
-
     image: "./images/greatrabbit.png",
-
     gender: "Unknown",
-
     race: "Witch Beast",
-
     role: "One of the Three Great Witch Beasts",
-
     affiliation: "Created by Daphne",
-
     age: "400",
-
     height: "Unknown",
-
     elementalAffinity: "None",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 4"
 },
 
 {
     name: "Puck",
-
     image: "./images/puck.png",
-
     gender: "Male",
-
     race: "Spirit",
-
     role: "Contracted Spirit, One of the Four Great Spirits",
-
     affiliation: "Emilia Camp",
-
     age: "421",
-
     height: "2000",
-
     elementalAffinity: "Fire",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 1"
 },
 
 {
     name: "Roswaal L. Mathers",
-
     image: "./images/roswaal.png",
-
     gender: "Male",
-
     race: "Human",
-
     role: "Court Mage",
-
     affiliation: "Emilia Camp",
-
     age: "400",
-
     height: "186",
-
     elementalAffinity: "Fire, Water, Wind, Earth, Yin, Yang",
-
     divineProtection: "No",
-
     authority: "No",
-
     firstAppearance: "Arc 2"
 },
 
