@@ -148,6 +148,9 @@ button:hover{
 
     font-weight:bold;
 
+    text-shadow:
+1px 1px 3px black;
+
     text-align:center;
 
     font-size:12px;
