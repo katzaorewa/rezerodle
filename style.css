@@ -160,17 +160,24 @@ button:hover{
 }
 
 .correct{
-    background:#2e7d32;
-}
-
-.wrong{
-    background:#c62828;
+background:#7c4dff;
 }
 
 .partial{
-    background:#d98c00;
+background:#a970ff;
 }
 
+.wrong{
+background:#2b1739;
+}
+
+.up{
+background:#a970ff;
+}
+
+.down{
+background:#a970ff;
+}
 .character-image{
     width:70px;
     height:70px;
