@@ -132,9 +132,7 @@ if(guess===answer){
 return "correct";
 }
 
-return guess>answer
-? "down"
-: "up";
+return "wrong";
 
 }
 
