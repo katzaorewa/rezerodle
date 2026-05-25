@@ -679,3 +679,31 @@ button{
 
     width:100px;
 }
+
+.up-arrow{
+
+color:#ff5ecf;
+
+font-size:16px;
+
+font-weight:bold;
+
+margin-left:3px;
+
+text-shadow:
+0 0 5px #c77dff;
+}
+
+.down-arrow{
+
+color:#ff5ecf;
+
+font-size:16px;
+
+font-weight:bold;
+
+margin-left:3px;
+
+text-shadow:
+0 0 5px #ff5ecf;
+}
