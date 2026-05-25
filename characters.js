@@ -1486,7 +1486,7 @@ const characters = [
 },
 
 {
-    name: "Garfiel Tinsel",
+    name: "Garfiel Tinzel",
     image: "./images/garfiel.png",
     gender: "Male",
     race: "Human, Beast",
