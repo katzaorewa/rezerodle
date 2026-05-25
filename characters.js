@@ -961,21 +961,6 @@ const characters = [
 },
 
 {
-    name: "Stride",
-    image: "./images/stride.png",
-    gender: "Male",
-    race: "Human",
-    role: "Sin Archbishop",
-    affiliation: "Vollachia Empire, Witch Cult",
-    age: "28",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "Yes",
-    firstAppearance: "None"
-},
-
-{
     name: "Flop O'Connell",
     image: "./images/flop.png",
     gender: "Male",
