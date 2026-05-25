@@ -930,21 +930,6 @@ const characters = [
     firstAppearance: "Arc 5"
 },   
 
-    {
-    name: "Raksha Risch",
-    image: "./images/raksha.png",
-    gender: "Female",
-    race: "Human",
-    role: "Citizen",
-    affiliation: "Kingdom of Lugunica",
-    age: "Unknown",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 1"
-},
-
 {
     name: "Spica",
     image: "./images/spica.png",
