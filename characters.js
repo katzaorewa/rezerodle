@@ -1141,21 +1141,6 @@ const characters = [
 },
 
 {
-    name: "Hornet",
-    image: "./images/hornet.png",
-    gender: "Female",
-    race: "Human",
-    role: "Gladiator",
-    affiliation: "Vollachia Empire",
-    age: "Unknown",
-    height: "200",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 8"
-},
-
-{
     name: "Sphinx",
     image: "./images/sphinx.png",
     gender: "Female",
