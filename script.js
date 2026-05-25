@@ -222,11 +222,10 @@ ${character.age!==answer.age &&
 character.age!=="Unknown" &&
 answer.age!=="Unknown"
 
-?(parseInt(character.age)>
-parseInt(answer.age)
-?" ↓"
-:" ↑")
-:""}
+? (parseInt(character.age) > parseInt(answer.age)
+
+? ' <span class="down-arrow">▼</span>'
+: ' <span class="up-arrow">▲</span>')
 
 </div>
 
@@ -242,11 +241,10 @@ ${character.height!==answer.height &&
 character.height!=="Unknown" &&
 answer.height!=="Unknown"
 
-?(parseInt(character.height)>
-parseInt(answer.height)
-?" ↓"
-:" ↑")
-:""}
+? (parseInt(character.height) > parseInt(answer.height)
+
+? ' <span class="down-arrow">▼</span>'
+: ' <span class="up-arrow">▲</span>')
 
 </div>
 
