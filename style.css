@@ -160,7 +160,7 @@ button:hover{
 }
 
 .correct{
-background:#7c4dff;
+background:#b24dff;
 }
 
 .partial{
@@ -172,11 +172,11 @@ background:#2b1739;
 }
 
 .up{
-background:#a970ff;
+background:#c9a3ff;
 }
 
 .down{
-background:#a970ff;
+background:#c9a3ff;
 }
 .character-image{
     width:70px;
