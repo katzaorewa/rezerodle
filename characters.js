@@ -1276,21 +1276,6 @@ const characters = [
 },
 
 {
-    name: "Heinkel van Astrea",
-    image: "./images/heinkel.png",
-    gender: "Male",
-    race: "Human",
-    role: "Deputy Commander of the Royal Guard",
-    affiliation: "House Astrea",
-    age: "39",
-    height: "185",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 5"
-},
-
-{
     name: "Rafiel Thompson",
     image: "./images/rafiel.png",
     gender: "Female",
