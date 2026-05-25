@@ -646,21 +646,6 @@ const characters = [
 },
 
 {
-    name: "Fred Thompson",
-    image: "./images/fred.png",
-    gender: "Male",
-    race: "Human",
-    role: "Citizen",
-    affiliation: "Priestella",
-    age: "7",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 5"
-},
-
-{
     name: "Fortuna",
     image: "./images/fortuna.png",
     gender: "Female",
@@ -1217,7 +1202,7 @@ const characters = [
 
 {
     name: "Petelgeuse Romanée-Conti",
-    image: "./images/petelguese.png",
+    image: "./images/petelgeuse.png",
     gender: "Male",
     race: "Spirit",
     role: "Sin Archbishop",
@@ -1258,21 +1243,6 @@ const characters = [
     divineProtection: "Yes",
     authority: "No",
     firstAppearance: "Arc 3"
-},
-
-{
-    name: "Rafiel Thompson",
-    image: "./images/rafiel.png",
-    gender: "Female",
-    race: "Human",
-    role: "Citizen",
-    affiliation: "Priestella",
-    age: "10",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 5"
 },
 
  {
@@ -1397,7 +1367,7 @@ const characters = [
 
 {
     name: "Chisha Gold",
-    image: "./images/shisha.png",
+    image: "./images/chisha.png",
     gender: "Male",
     race: "Human",
     role: "One of the Nine Divine Generals",
@@ -1408,21 +1378,6 @@ const characters = [
     divineProtection: "No",
     authority: "No",
     firstAppearance: "Arc 7"
-},
-
-{
-    name: "Lusbel Kallard",
-    image: "./images/lusbel.png",
-    gender: "Male",
-    race: "Human",
-    role: "Citizen",
-    affiliation: "Priestella",
-    age: "9",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 5"
 },
 
 {
