@@ -153,13 +153,13 @@ const answerNumber=parseInt(
 answer.replace("Arc ","")
 );
 
-if(
-Math.abs(
-guessNumber-answerNumber
-)===1
-){
-return "partial";
+if(guessNumber===answerNumber){
+return "correct";
 }
+
+return guessNumber>answerNumber
+? "down"
+: "up";
 
 }
 
@@ -265,7 +265,21 @@ ${character.authority}
 </div>
 
 <div class="${checkTrait(character.firstAppearance,answer.firstAppearance)}">
+
 ${character.firstAppearance}
+
+${character.firstAppearance!==answer.firstAppearance &&
+character.firstAppearance.includes("Arc") &&
+answer.firstAppearance.includes("Arc")
+
+?(parseInt(character.firstAppearance.replace("Arc ",""))>
+parseInt(answer.firstAppearance.replace("Arc ",""))
+
+? ' <span class="down-arrow">▼</span>'
+: ' <span class="up-arrow">▲</span>')
+
+:""}
+
 </div>
 
 `;
