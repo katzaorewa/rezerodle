@@ -976,21 +976,6 @@ const characters = [
 },
 
 {
-    name: "Flugel",
-    image: "./images/flugel.png",
-    gender: "Male",
-    race: "Human",
-    role: "The Great Sage",
-    affiliation: "Kingdom of Lugunica, Pleiades Watchtower",
-    age: "Unknown",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "None"
-},
-
-{
     name: "Reid van Astrea",
     image: "./images/reid.png",
     gender: "Male",
