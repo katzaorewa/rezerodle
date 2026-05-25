@@ -1235,7 +1235,7 @@ const characters = [
     image: "./images/ubilk.png",
     gender: "Male",
     race: "Evil Eye Tribe",
-    role: "Male Prostitute",
+    role: "Slave",
     affiliation: "Vollachia Empire",
     age: "Unknown",
     height: "Unknown",
