@@ -47,14 +47,7 @@ h1{
     font-size:70px;
 
     font-family:'Cinzel Decorative', serif;
-
-    color:#d9a5ff;
-
-    text-shadow:
-    0 0 10px #c77dff,
-    0 0 20px #c77dff,
-    0 0 40px #7b2cbf;
-
+    
     z-index:1000;
 }
 .search-box{
@@ -782,3 +775,14 @@ background:#8658a6;
 background:#2b1739;
 
 }
+
+.r1{color:#5722b3;}
+.r2{color:#5722b3;}
+.r3{color:#000000;}
+.r4{color:#000000;}
+.r5{color:#000000}
+.r6{color:#000000;}
+.r7{color:#000000;}
+.r8{color:d31bf7;}
+.r9{color:d31bf7;}
+.r10{color:d31bf7;}
