@@ -163,11 +163,11 @@ button:hover{
 }
 
 .correct{
-background:#b24dff;
+background:#d31bf7;
 }
 
 .partial{
-background:#a970ff;
+background:#8658a6;
 }
 
 .wrong{
@@ -767,13 +767,13 @@ box-shadow:
 
 .legend-correct{
 
-background:#b24dff;
+background:#d31bf7;
 
 }
 
 .legend-partial{
 
-background:#a970ff;
+background:#8658a6;
 
 }
 
