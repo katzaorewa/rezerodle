@@ -125,8 +125,13 @@ if(
 !isNaN(parseInt(answer))
 ){
 
-guess=parseInt(guess);
-answer=parseInt(answer);
+guess=parseInt(
+guess.toString().replace("+","")
+);
+
+answer=parseInt(
+answer.toString().replace("+","")
+);
 
 if(guess===answer){
 return "correct";
