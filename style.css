@@ -37,18 +37,20 @@ font-family:'Cinzel Decorative', sans-serif;
 
 h1{
 
-    position:fixed;
+position:fixed;
 
-    top:15px;
-    left:25px;
+top:15px;
+left:20px;
 
-    margin:0;
+margin:0;
 
-    font-size:70px;
+display:flex;
 
-    font-family:'Cinzel Decorative', serif;
-    
-    z-index:1000;
+align-items:flex-start;
+
+z-index:9999;
+
+white-space:nowrap;
 }
 .search-box{
 
@@ -599,6 +601,48 @@ button{
     font-size:18px;
 }
 
+ h1{
+
+top:10px;
+left:8px;
+
+transform:scale(0.42);
+
+transform-origin:top left;
+}
+
+.container{
+
+margin-top:70px;
+
+}   
+
+.re{
+
+font-size:75px;
+
+margin-top:35px;
+
+margin-right:-20px;
+}
+
+.zero{
+
+font-size:95px;
+
+margin-top:-18px;
+
+margin-right:-15px;
+}
+
+.dle{
+
+font-size:65px;
+
+margin-top:35px;
+
+margin-left:-15px;
+}    
 }
 
 #suggestions::-webkit-scrollbar{
