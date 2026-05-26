@@ -776,13 +776,76 @@ background:#2b1739;
 
 }
 
-.r1{color:#5722b3;}
-.r2{color:#5722b3;}
-.r3{color:#000000;}
-.r4{color:#000000;}
-.r5{color:#000000}
-.r6{color:#000000;}
-.r7{color:#000000;}
-.r8{color:d31bf7;}
-.r9{color:d31bf7;}
-.r10{color:d31bf7;}
+.logo{
+
+position:fixed;
+
+top:20px;
+
+left:25px;
+
+display:flex;
+
+align-items:flex-start;
+
+gap:-5px;
+
+z-index:1000;
+
+font-family:'Cinzel Decorative',serif;
+
+}
+
+/* Re: */
+
+.re{
+
+font-size:72px;
+
+color:#ff3c7d;
+
+margin-top:55px;
+
+margin-right:-10px;
+
+text-shadow:
+0 0 8px #ff3c7d,
+0 0 18px #ff3c7d;
+
+}
+
+/* ゼロ */
+
+.zero{
+
+font-size:110px;
+
+color:#ffffff;
+
+margin-top:-15px;
+
+margin-right:-8px;
+
+text-shadow:
+0 0 10px white,
+0 0 25px white;
+
+}
+
+/* DLE */
+
+.dle{
+
+font-size:72px;
+
+color:#6da8ff;
+
+margin-top:55px;
+
+margin-left:-5px;
+
+text-shadow:
+0 0 10px #6da8ff,
+0 0 18px #6da8ff;
+
+}
