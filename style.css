@@ -800,7 +800,7 @@ font-family:'Cinzel Decorative',serif;
 
 .re{
 
-font-size:68px;
+font-size:74px;
 
 color:#ff00e1;
 
@@ -839,13 +839,16 @@ text-shadow:
 
 .dle{
 
-font-size:68px;
+font-size:74px;
 
 color:#ff00e1;
 
 margin-top:55px;
 
 margin-left:-5px;
+
+font-family:'Times New Roman',serif;
+font-weight:700;       
 
 text-shadow:
 0 0 10px #ff00e1,
