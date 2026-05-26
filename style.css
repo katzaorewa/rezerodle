@@ -800,17 +800,17 @@ font-family:'Cinzel Decorative',serif;
 
 .re{
 
-font-size:72px;
+font-size:68px;
 
-color:#ff3c7d;
+color:#5514cc;
 
 margin-top:55px;
 
 margin-right:-10px;
 
 text-shadow:
-0 0 8px #ff3c7d,
-0 0 18px #ff3c7d;
+0 0 8px #5514cc,
+0 0 18px #5514cc;
 
 }
 
@@ -818,7 +818,7 @@ text-shadow:
 
 .zero{
 
-font-size:110px;
+font-size:106px;
 
 color:#ffffff;
 
@@ -836,16 +836,16 @@ text-shadow:
 
 .dle{
 
-font-size:72px;
+font-size:68px;
 
-color:#6da8ff;
+color:#b24dff;
 
 margin-top:55px;
 
 margin-left:-5px;
 
 text-shadow:
-0 0 10px #6da8ff,
-0 0 18px #6da8ff;
+0 0 10px #b24dff,
+0 0 18px #b24dff;
 
 }
