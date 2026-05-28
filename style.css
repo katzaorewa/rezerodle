@@ -452,7 +452,7 @@ background:#2b1739;
 
     pointer-events: all;
 }
-
+/*
 @media (max-width:900px){
 
 body{
@@ -699,6 +699,7 @@ height:5px;
 
 }   
 }
+*/
 
 #suggestions::-webkit-scrollbar{
 
