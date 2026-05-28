@@ -531,7 +531,7 @@ button{
 /* Başlıklar */
 
 .headers{
-    gap:0px;
+    gap:1px;
 }
 
 .headers div{
@@ -558,7 +558,7 @@ button{
 }
 
 .result-row{
-    gap:0px;
+    gap:1px;
 }
 
 .result-row div{
@@ -649,25 +649,23 @@ margin-left:-24px;
 }
 
  /* Sonuç kutuları */
-
 .headers div,
 .result-row div{
 
-width:24px !important;
+width:32px !important;
 
-height:42px !important;
+height:46px !important;
 
-font-size:3px !important;
+font-size:4px !important;
 
 padding:1px;
 
-line-height:1.1;
+line-height:1.05;
 
 overflow:hidden;
 
 word-break:break-word;
 
-}
 }
 
 /* Resim */
@@ -684,20 +682,20 @@ height:38px !important;
 
 .legend{
 
-top:65px;
+top:38px;
 
-right:5px;
+right:4px;
 
-font-size:7px;
+font-size:5px;
 
-gap:4px;
+gap:2px;
 
 }
 
 .legend span{
 
-width:8px;
-height:8px;
+width:5px;
+height:5px;
 
 }   
 }
