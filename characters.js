@@ -1439,4 +1439,19 @@ const characters = [
     authority: "No",
     firstAppearance: "Arc 4"
 },
+
+{
+    name: "Tina",
+    image: "tina.png",
+    gender: "Female", 
+    race: "Human", 
+    role: "Citizen",
+    affiliation: "Kingdom of Lugunica, Priestella",
+    age: "Unknown",
+    height: "Unknown",
+    elementalAffinity: "None",
+    divineProtection: "No", 
+    authority: "No", 
+    firstAppearance: "Arc 5"
+},      
 ];
