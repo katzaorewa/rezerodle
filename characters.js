@@ -1442,7 +1442,7 @@ const characters = [
 
 {
     name: "Tina",
-    image: "tina.png",
+    image: "./images/tina.png",
     gender: "Female", 
     race: "Human", 
     role: "Citizen",
