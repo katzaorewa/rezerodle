@@ -554,22 +554,7 @@ const characters = [
     authority: "No",
     firstAppearance: "Arc 9"
 },
-
-{
-    name: "Tina",
-    image: "./images/tina.png",
-    gender: "Female",
-    race: "Human",
-    role: "Citizen",
-    affiliation: "Priestella",
-    age: "Unknown",
-    height: "Unknown",
-    elementalAffinity: "None",
-    divineProtection: "No",
-    authority: "No",
-    firstAppearance: "Arc 5"
-},
-
+    
 {
     name: "Shaula",
     image: "./images/shaula.png",
