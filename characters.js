@@ -800,7 +800,7 @@ const characters = [
     image: "./images/otto.png",
     gender: "Male",
     race: "Human",
-    role: "Internal Affairs Officer",
+    role: "Internal Affairs Officer, Merchant",
     affiliation: "Emilia Camp",
     age: "21",
     height: "177",
