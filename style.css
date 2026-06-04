@@ -28,18 +28,6 @@ font-family:'Cinzel Decorative', sans-serif;
     text-align:center;
 }
 
-h1{
-
-   position:fixed;
-   top:15px;
-   left:20px;
-   margin:0;
-   display:flex;
-   align-items:flex-start;
-   z-index:9999;
-   white-space:nowrap;
-}
-
 .logo{
 
 position:fixed;
@@ -546,7 +534,8 @@ width:6px;
 height:6px;
 
 }
-h1{
+    
+.logo{
 
 top:5px;
 left:5px;
