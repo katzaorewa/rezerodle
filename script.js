@@ -118,6 +118,28 @@ if(
     : "wrong";
 }
 
+    if(
+guess.includes("Arc") &&
+answer.includes("Arc")
+){
+
+const guessNumber=parseInt(
+guess.replace("Arc ","")
+);
+
+const answerNumber=parseInt(
+answer.replace("Arc ","")
+);
+
+if(guessNumber===answerNumber){
+return "correct";
+}
+
+return guessNumber>answerNumber
+? "down"
+: "up";
+
+}
 /* yaş-boy kontrolü */
 
 if(
@@ -143,29 +165,6 @@ return "wrong";
 
 if(guess===answer){
 return "correct";
-}
-
-if(
-guess.includes("Arc") &&
-answer.includes("Arc")
-){
-
-const guessNumber=parseInt(
-guess.replace("Arc ","")
-);
-
-const answerNumber=parseInt(
-answer.replace("Arc ","")
-);
-
-if(guessNumber===answerNumber){
-return "correct";
-}
-
-return guessNumber>answerNumber
-? "down"
-: "up";
-
 }
 
 const guessTraits=guess
