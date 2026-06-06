@@ -498,6 +498,12 @@ text-shadow:
 }
 @media (max-width:900px){
 
+.headers,
+.result-row{
+
+justify-content:flex-start;
+
+}    
 body{
 
 zoom:0.58;
@@ -518,18 +524,26 @@ margin-right:-18px;
 
 .zero{
     
-font-size:72px;
+font-size:88px;
 margin-top:-10px;
 margin-right:-16px;
 }
 
 .dle{
 
-font-size:48px;
+font-size:58px;
 margin-top:38px;
 margin-left:-14px;
 }
 
+.search-box{
+
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+margin-left:0;
+}    
 /* Correct Partial Wrong */
 
 .legend{
