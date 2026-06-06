@@ -39,16 +39,6 @@ z-index:9999;
 white-space:nowrap;
 }
 
-.logo {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    text-align: center;
-    z-index: 999;
-}
-
 .search-box{
 
     position:relative;
