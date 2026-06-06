@@ -534,16 +534,16 @@ margin-left:-14px;
 
 .legend{
 
-top:45px;
-right:5px;
-font-size:6px;
-gap:3px;
+top:20px;
+right:8px;
+font-size:10px;
+gap:6px;
 }
 
 .legend span{
 
-width:6px;
-height:6px;
+width:10px;
+height:10px;
 
 }
     
